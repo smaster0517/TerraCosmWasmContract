@@ -1,4 +1,4 @@
-# CosmWasm Multisend Contract
+# CosmWasm Multisend Contract on Terra Blockchain
 
 This is a multisend smart contracts in Rust built to run on
 [Cosmos SDK](https://github.com/cosmos/cosmos-sdk) module on all chains that enable it.
