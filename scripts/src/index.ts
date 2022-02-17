@@ -10,14 +10,14 @@ import {
 import * as fs from 'fs';
 
 export async function main() {
-  // test1 key from localterra accounts
+  // test1 key from local terra accounts
   const mk = new MnemonicKey({
-    // This is a localTerra mnemonic. NO NOT USE THIS FOR REAL MOENY
+    // This is a localTerra mnemonic. DO NOT USE THIS FOR REAL COINs
     mnemonic:
       'notice oak worry limit wrap speak medal online prefer cluster roof addict wrist behave treat actual wasp year salad speed social layer crew genius',
   });
 
-  // connect to localterra
+  // connect to local terra
   const terra = new LCDClient({
     URL: 'http://localhost:1317',
     chainID: 'localterra',
