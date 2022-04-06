@@ -39,11 +39,7 @@ As a live test environment, it is recommended to use [LocalTerra](https://github
 ## Building the contract
 
 Clone the contract to a new environment.
-
 ```
-git clone https://github.com/ZenGo-X/terra-multisend.git
-```
-
 Make sure the project compiles by running
 
 ```sh
